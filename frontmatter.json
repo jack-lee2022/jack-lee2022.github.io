@@ -1,0 +1,143 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.startCommand": "npx hexo server",
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.content.publicFolder": "source",
+  "frontMatter.global.timezone": "Asia/Taipei",
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd HH:mm:ss",
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.file.preserveCasing": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "文章",
+      "path": "[[workspace]]/source/_posts",
+      "filePrefix": "{{date|yyyyMMdd}}-",
+      "previewPath": "posts"
+    },
+    {
+      "title": "草稿",
+      "path": "[[workspace]]/source/_drafts",
+      "filePrefix": "{{date|yyyyMMdd}}-",
+      "previewPath": "posts"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": "posts",
+      "fields": [
+        {
+          "title": "標題",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "發文日期",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "dateFormat": "yyyy-MM-dd HH:mm:ss"
+        },
+        {
+          "title": "更新日期",
+          "name": "updated",
+          "type": "datetime",
+          "isModifiedDate": true,
+          "dateFormat": "yyyy-MM-dd HH:mm:ss"
+        },
+        {
+          "title": "分類",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "標籤",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "摘要（SEO 描述）",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "痞客邦原文章 ID",
+          "name": "pixnet_basename",
+          "type": "string",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.categories": [
+    "LabVIEW基礎教學",
+    "Arduino",
+    "Python",
+    "PIC Microchip",
+    "LabVIEW進階教學",
+    "文章收集",
+    "IMAQ 影像處理",
+    "Labview 參考文章&筆記摘要",
+    "DAQ 數位類比資料處理",
+    "Android基礎",
+    "Protel 99SE 教學",
+    "科技新知",
+    "Android 進階",
+    "新奇網站",
+    "Eagle PCB",
+    "電腦相關",
+    "投資理財",
+    "人機互動設計",
+    "贊助區",
+    "RTOS",
+    "ST MCU",
+    "ESP32",
+    "PDA模組",
+    "DSP&Embedded 模組",
+    "QT教學",
+    "低價USB DAQ",
+    "軟體工程",
+    "App Inventor",
+    "Processing",
+    "Micropython",
+    "Labview連結資料庫",
+    "心情點滴",
+    "8051",
+    "Mathematics",
+    "Import Shared Library",
+    "Delphi",
+    "Agilent VEE",
+    "Holtek單晶片教學",
+    "ARM教學",
+    "書摘＊筆記",
+    "工業自動化資訊",
+    "電子材料",
+    "App開發研究室",
+    "OrCAD教學",
+    "微電流計開發",
+    "Microchip使用SD Card 筆記",
+    "職場人生",
+    "套件",
+    "MySQL",
+    "英語教學",
+    "創業須知",
+    "DSC模組與OPC Server",
+    "遠端監控",
+    "觸控面板(Touch Panel)模組",
+    "Windows CE.net",
+    "LabVIEW FPGA Module",
+    "Measure Studio",
+    "影音分享",
+    "LabVIEW程式產品區",
+    "iPhone程式開發",
+    "電子電路",
+    "UXUI自修",
+    "理財",
+    "C++"
+  ],
+  "frontMatter.taxonomy.tags": []
+}
