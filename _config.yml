@@ -7,7 +7,7 @@ title: 'X Workshop｜量測自動化 × 嵌入式 × AI 開發實戰'
 subtitle: ''
 description: 'LabVIEW、Python 與單晶片的整合開發教學，涵蓋資料擷取、儀器控制、影像處理、藍牙通訊到邊緣 AI 推論。'
 keywords:
-author: 魚的方舟
+author: Jack
 language: zh-TW
 timezone: 'Asia/Taipei'
 
@@ -102,3 +102,10 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 本地搜尋索引（hexo-generator-searchdb；Butterfly local_search 讀取此檔）
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html

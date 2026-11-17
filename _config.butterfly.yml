@@ -488,8 +488,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 搜尋文章（例如 LabVIEW、ESP32、藍牙）
 
   # Algolia Search
   algolia_search:
