@@ -21,6 +21,7 @@ menu:
   首頁: / || fas fa-home
   歸檔: /archives/ || fas fa-archive
   分類: /categories/ || fas fa-folder-open
+  標籤: /tags/ || fas fa-tags
   # Home: / || fas fa-home
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
