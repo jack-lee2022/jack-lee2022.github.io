@@ -292,9 +292,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: fas fa-envelope
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: mailto:jacklee3633@gmail.com
   card_announcement:
     enable: true
     content: 本站文章自痞客邦（2006–2024）搬家而來，舊文章的程式碼與圖片如有缺漏，歡迎留言告知。
