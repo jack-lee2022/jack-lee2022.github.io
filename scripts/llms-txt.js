@@ -39,6 +39,7 @@ hexo.extend.generator.register('llms_txt', function (locals) {
   lines.push('## 網站導覽')
   lines.push('')
   lines.push(`- [首頁](${base}/): 最新文章`)
+  lines.push(`- [關於作者](${base}/about/): 作者 Jack 的經歷與專長（23 年 LabVIEW、NI CLD、醫療器材自動化測試）`)
   lines.push(`- [分類](${base}/categories/): 依主題瀏覽全部文章`)
   lines.push(`- [歸檔](${base}/archives/): 依時間瀏覽全部文章`)
   lines.push(`- [Sitemap](${base}/sitemap.xml): 全部文章清單`)
