@@ -1,0 +1,31 @@
+/* ===== X Workshop：夜光海頂部圖 ===== */
+
+/* 遮罩調淡，讓海面光點透出來（Butterfly 預設約 30% 黑） */
+#page-header:not(.not-top-img):before {
+  background-color: rgba(3, 10, 25, 0.18);
+}
+
+/* 標題、副標題加上青藍色光暈，呼應海面光點 */
+#page-header #site-title,
+#page-header #post-info .post-title,
+#page-header #page-site-info #site-title {
+  text-shadow: 0 0 18px rgba(56, 189, 248, 0.55), 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+#page-header #site-subtitle {
+  text-shadow: 0 0 12px rgba(56, 189, 248, 0.5), 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* 首頁頂部底端漸層融入內文背景，避免硬切 */
+#page-header.full_page:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--global-bg));
+  content: '';
+  pointer-events: none;
+}
+#page-header.full_page #scroll-down {
+  z-index: 1;
+}
