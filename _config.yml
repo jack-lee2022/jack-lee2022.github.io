@@ -17,8 +17,8 @@ url: https://blog.aurorixa.com
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -109,3 +109,19 @@ search:
   field: post
   content: true
   format: html
+
+# SEO：sitemap（hexo-generator-sitemap）
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+# RSS／Atom 訂閱（hexo-generator-feed）
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 30
+  content: false
+  autodiscovery: true
