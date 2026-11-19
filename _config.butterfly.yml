@@ -711,7 +711,7 @@ knocket:
 baidu_analytics:
 
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-KQ42HQSSS0
 
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
