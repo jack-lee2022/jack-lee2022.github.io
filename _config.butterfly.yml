@@ -767,6 +767,8 @@ ad:
 # --------------------------------------
 
 site_verification:
+  - name: msvalidate.01
+    content: 1AF6073D3108CAA72749B50DEF1F0E75
   # - name: google-site-verification
   #   content: xxxxxx
   # - name: baidu-site-verification
